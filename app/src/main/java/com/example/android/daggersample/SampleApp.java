@@ -6,10 +6,7 @@ import com.example.android.daggersample.di.component.AppComponent;
 import com.example.android.daggersample.di.component.DaggerAppComponent;
 import com.example.android.daggersample.di.modules.AppModule;
 
-/**
- * Created by takuya on 2016/06/21.
- */
-public class DaggerApp extends Application {
+public class SampleApp extends Application {
     AppComponent appComponent;
 
     @Override public void onCreate() {
@@ -20,5 +17,4 @@ public class DaggerApp extends Application {
     public AppComponent getAppComponent() {
         return appComponent;
     }
-
 }
